@@ -1,0 +1,4 @@
+peer chaincode query -C channel1 -n cc -c '{"Args":["query","a"]}'
+peer chaincode invoke -o blockchain-orderer:31010 -C channel1 -n cc -c '{"Args":["invoke","a","b","20"]}'
+peer chaincode query -C channel1 -n cc -c '{"Args":["query","a"]}'
+peer chaincode query -C channel1 -n cc -c '{"Args":["query","b"]}'
