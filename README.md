@@ -121,7 +121,7 @@ This pattern provides a script which automatically provisions a sample Hyperledg
 
 Clone or download the Kubernetes configuration scripts to your user home directory.
   ```
-  $ git clone https://github.com/IBM/blockchain-network-on-kubernetes.git
+  $ git clone https://github.com/IBM-Cloud-DevFest-2018/blockchain-network-on-kubernetes.git
   ```
 
 Navigate to the source directory
